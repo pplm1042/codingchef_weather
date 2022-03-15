@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert';
+import 'package:weather_app/data/my_location.dart';
+import 'package:weather_app/data/network.dart';
+import 'package:weather_app/screens/weather_screen.dart';
+const apikey = 'b58191c9636325aef39e7cdac2fd2705';
 
 class Loading extends StatefulWidget {
   @override
@@ -10,34 +11,60 @@ class Loading extends StatefulWidget {
 
 class _LoadingState extends State<Loading> {
 
+  double latitude3;
+  double longitude3;
+
   @override
   void initState() {
     super.initState();
     getLocation();
-    fetchData();
+    // fetchData();
   }
 
   void getLocation() async{
-    try{
-      LocationPermission permission = await Geolocator.requestPermission();
-      Position position = await Geolocator.
-      getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
-      print(position);
-    }catch(e) {
-      print('There was a problem in internet network');
-    }
+    MyLocation myLocation = MyLocation();
+    await myLocation.getMyCurrentLocation();
+    latitude3 = myLocation.latitude2;
+    longitude3 = myLocation.longitude2;
+    print(latitude3);
+    print(longitude3);
+    print(apikey);
+
+    // var url = Uri.parse('https://samples.openweathermap.org/data/2.5/weather?q=London&appid=b1b15e88fa797225412429c1c50c122a1');
+    var url = Uri.parse('https://api.openweathermap.org/data/2.5/weather?lat=$latitude3&lon=$longitude3&appid=$apikey&units=metric');
+    // print('url : $url');
+    // print(url.runtimeType);
+    Network network = Network(url);
+
+    var weatherData = await network.getJsonData();
+    print(weatherData);
+
+    Navigator.push(context, MaterialPageRoute(builder: (context) {
+      return WeatherScreen(parseWeatherData: weatherData,);
+    }));
+
   }
   
-  void fetchData() async{
-    var url = Uri.parse('https://samples.openweathermap.org/data/2.5/weather?q=London&appid=b1b15e88fa797225412429c1c50c122a1');
-    http.Response response = await http.get(url);
-    if(response.statusCode == 200) {
-      String jsonData = response.body;
-      var myJson = jsonDecode(jsonData)['weather'][0]['description'];
-      print(myJson);
-    }
-    // print(response.body);
-  }
+  // void fetchData() async{
+  //   var url = Uri.parse('https://samples.openweathermap.org/data/2.5/weather?q=London&appid=b1b15e88fa797225412429c1c50c122a1');
+  //   http.Response response = await http.get(url);
+  //   if(response.statusCode == 200) {
+  //
+  //     String jsonData = response.body;
+  //     var parsingData = jsonDecode(jsonData);
+  //     var myJson = jsonDecode(jsonData)['weather'][0]['description'];
+  //     print(myJson);
+  //
+  //     var wind = parsingData['wind']['speed'];
+  //     print(wind);
+  //
+  //     var id = parsingData['id'];
+  //     print(id);
+  //   }else{
+  //     print(response.statusCode);
+  //   }
+  //   // print(response.body);
+  // }
 
   @override
   Widget build(BuildContext context) {
