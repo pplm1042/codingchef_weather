@@ -8,110 +8,110 @@
 	viewBox="15 15 70 70" 
 	enable-background="new 15 15 70 70" 
 	xml:space="preserve">
-    <style type="text/css"><![CDATA[
+<!--    <style type="text/css"><![CDATA[-->
 
-        svg{
-            shape-rendering: geometricPrecision;
-        }
+<!--        svg{-->
+<!--            shape-rendering: geometricPrecision;-->
+<!--        }-->
 
-        g, path, circle, rect{
-            
-            -webkit-transform-origin: 50% 50%;
-            -moz-transform-origin: 50% 50%;
-            -o-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+<!--        g, path, circle, rect{-->
+<!--            -->
+<!--            -webkit-transform-origin: 50% 50%;-->
+<!--            -moz-transform-origin: 50% 50%;-->
+<!--            -o-transform-origin: 50% 50%;-->
+<!--            transform-origin: 50% 50%;-->
 
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-iteration-count: infinite;
-            -o-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+<!--            -webkit-animation-iteration-count: infinite;-->
+<!--            -moz-animation-iteration-count: infinite;-->
+<!--            -o-animation-iteration-count: infinite;-->
+<!--            animation-iteration-count: infinite;-->
 
-            -moz-animation-timing-function: linear;
-            -webkit-animation-timing-function: linear;
-            -o-animation-timing-function: linear;
-            animation-timing-function: linear;
+<!--            -moz-animation-timing-function: linear;-->
+<!--            -webkit-animation-timing-function: linear;-->
+<!--            -o-animation-timing-function: linear;-->
+<!--            animation-timing-function: linear;-->
 
-            -webkit-animation-duration: 12s;
-            -moz-animation-duration: 12s;
-            -o-animation-duration: 12s;
-            animation-duration: 12s;
+<!--            -webkit-animation-duration: 12s;-->
+<!--            -moz-animation-duration: 12s;-->
+<!--            -o-animation-duration: 12s;-->
+<!--            animation-duration: 12s;-->
 
-            -webkit-animation-direction: normal;
-            -moz-animation-direction: normal;
-            -o-animation-direction: normal;
-            animation-direction: normal;
+<!--            -webkit-animation-direction: normal;-->
+<!--            -moz-animation-direction: normal;-->
+<!--            -o-animation-direction: normal;-->
+<!--            animation-direction: normal;-->
 
-        }
+<!--        }-->
 
-       .climacon_component-stroke_thermoLine{
-            -webkit-animation-name: translateThermoline;
-            -moz-animation-name: translateThermoline;
-            -o-animation-name: translateThermoline;
-            animation-name: translateThermoline;
+<!--       .climacon_component-stroke_thermoLine{-->
+<!--            -webkit-animation-name: translateThermoline;-->
+<!--            -moz-animation-name: translateThermoline;-->
+<!--            -o-animation-name: translateThermoline;-->
+<!--            animation-name: translateThermoline;-->
 
-            -webkit-animation-iteration-count: 1;
-            -moz-animation-iteration-count: 1;
-            -o-animation-iteration-count: 1;
-            animation-iteration-count: 1;
+<!--            -webkit-animation-iteration-count: 1;-->
+<!--            -moz-animation-iteration-count: 1;-->
+<!--            -o-animation-iteration-count: 1;-->
+<!--            animation-iteration-count: 1;-->
 
-            -webkit-animation-duration: 3s;
-            -moz-animation-duration: 3s;
-            -o-animation-duration: 3s;
-            animation-duration: 3s;
+<!--            -webkit-animation-duration: 3s;-->
+<!--            -moz-animation-duration: 3s;-->
+<!--            -o-animation-duration: 3s;-->
+<!--            animation-duration: 3s;-->
 
-            -webkit-animation-delay: 0;
-            -moz-animation-delay: 0;
-            -o-animation-delay: 0;
-            animation-delay: 0;
+<!--            -webkit-animation-delay: 0;-->
+<!--            -moz-animation-delay: 0;-->
+<!--            -o-animation-delay: 0;-->
+<!--            animation-delay: 0;-->
 
-            -webkit-animation-fill-mode: both;
-            -moz-animation-fill-mode: both;
-            -o-animation-fill-mode: both;
-            animation-fill-mode: both;
+<!--            -webkit-animation-fill-mode: both;-->
+<!--            -moz-animation-fill-mode: both;-->
+<!--            -o-animation-fill-mode: both;-->
+<!--            animation-fill-mode: both;-->
 
-        }
+<!--        }-->
 
-        @-webkit-keyframes translateThermoline {
-          0% {
-            -webkit-transform: translateY(0);
-          }
+<!--        @-webkit-keyframes translateThermoline {-->
+<!--          0% {-->
+<!--            -webkit-transform: translateY(0);-->
+<!--          }-->
 
-          100% {
-            -webkit-transform: translateY(-10px);
-          }
-        }
+<!--          100% {-->
+<!--            -webkit-transform: translateY(-10px);-->
+<!--          }-->
+<!--        }-->
 
-        @-moz-keyframes translateThermoline {
-          0% {
-            -moz-transform: translateY(0);
-          }
+<!--        @-moz-keyframes translateThermoline {-->
+<!--          0% {-->
+<!--            -moz-transform: translateY(0);-->
+<!--          }-->
 
-          100% {
-            -moz-transform: translateY(-10px);
-          }
-        }
+<!--          100% {-->
+<!--            -moz-transform: translateY(-10px);-->
+<!--          }-->
+<!--        }-->
 
-        @-o-keyframes translateThermoline {
-          0% {
-            -o-transform: translateY(0);
-          }
+<!--        @-o-keyframes translateThermoline {-->
+<!--          0% {-->
+<!--            -o-transform: translateY(0);-->
+<!--          }-->
 
-          100% {
-            -o-transform: translateY(-10px);
-          }
-        }
+<!--          100% {-->
+<!--            -o-transform: translateY(-10px);-->
+<!--          }-->
+<!--        }-->
 
-        @keyframes translateThermoline {
-          0% {
-            transform: translateY(0);
-          }
+<!--        @keyframes translateThermoline {-->
+<!--          0% {-->
+<!--            transform: translateY(0);-->
+<!--          }-->
 
-          100% {
-         	transform: translateY(-10px);
-          }
-        }
+<!--          100% {-->
+<!--         	transform: translateY(-10px);-->
+<!--          }-->
+<!--        }-->
 
-    ]]></style>
+<!--    ]]></style>-->
     <clipPath id="thermolineClip">
 		<rect 
 			x="15" 

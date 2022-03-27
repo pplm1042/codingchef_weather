@@ -32,15 +32,23 @@ class _LoadingState extends State<Loading> {
 
     // var url = Uri.parse('https://samples.openweathermap.org/data/2.5/weather?q=London&appid=b1b15e88fa797225412429c1c50c122a1');
     var url = Uri.parse('https://api.openweathermap.org/data/2.5/weather?lat=$latitude3&lon=$longitude3&appid=$apikey&units=metric');
+
+    var url2 = Uri.parse('http://api.openweathermap.org/data/2.5/air_pollution?lat=$latitude3&lon=$longitude3&appid=$apikey');
+    print(url2);
+
     // print('url : $url');
     // print(url.runtimeType);
-    Network network = Network(url);
+    Network network = Network(url, url2);
 
     var weatherData = await network.getJsonData();
     print(weatherData);
 
+    var airData = await network.getAirData();
+    print('airData : $airData');
+
+
     Navigator.push(context, MaterialPageRoute(builder: (context) {
-      return WeatherScreen(parseWeatherData: weatherData,);
+      return WeatherScreen(parseWeatherData: weatherData, parseAirPollution: airData,);
     }));
 
   }

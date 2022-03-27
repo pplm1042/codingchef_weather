@@ -9,157 +9,157 @@
     viewBox="15 15 70 70"
     enable-background="new 15 15 70 70"
     xml:space="preserve">
-    <style type="text/css"><![CDATA[
+<!--    <style type="text/css"><![CDATA[-->
 
-        svg{
-            shape-rendering: geometricPrecision;
+<!--        svg{-->
+<!--            shape-rendering: geometricPrecision;-->
 
-        }
+<!--        }-->
 
-        .climacon_component-stroke{
-            fill: black;
-        }
+<!--        .climacon_component-stroke{-->
+<!--            fill: black;-->
+<!--        }-->
 
-        .climacon_component-fill{
-            fill: white;
-        }
-    
-        g, path, circle, rect{
-        
-            -webkit-transform-origin: 50% 50%;
-            -moz-transform-origin: 50% 50%;
-            -o-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-            transform-box: fill-box;
+<!--        .climacon_component-fill{-->
+<!--            fill: white;-->
+<!--        }-->
+<!--    -->
+<!--        g, path, circle, rect{-->
+<!--        -->
+<!--            -webkit-transform-origin: 50% 50%;-->
+<!--            -moz-transform-origin: 50% 50%;-->
+<!--            -o-transform-origin: 50% 50%;-->
+<!--            transform-origin: 50% 50%;-->
+<!--            transform-box: fill-box;-->
 
-            -webkit-animation-timing-function: linear;
-            -moz-animation-timing-function: linear;
-            animation-timing-function: linear;
-            -o-animation-timing-function: linear;
-  
-            -o-animation-direction: normal;
-            animation-direction: normal;
-            -webkit-animation-direction: normal;
-            -moz-animation-direction: normal;
+<!--            -webkit-animation-timing-function: linear;-->
+<!--            -moz-animation-timing-function: linear;-->
+<!--            animation-timing-function: linear;-->
+<!--            -o-animation-timing-function: linear;-->
+<!--  -->
+<!--            -o-animation-direction: normal;-->
+<!--            animation-direction: normal;-->
+<!--            -webkit-animation-direction: normal;-->
+<!--            -moz-animation-direction: normal;-->
 
-            -moz-animation-iteration-count: infinite;
-            -webkit-animation-iteration-count: infinite;
-            -o-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+<!--            -moz-animation-iteration-count: infinite;-->
+<!--            -webkit-animation-iteration-count: infinite;-->
+<!--            -o-animation-iteration-count: infinite;-->
+<!--            animation-iteration-count: infinite;-->
 
-            -moz-animation-duration: 12s;
-            -webkit-animation-duration: 12s;
-            -o-animation-duration: 12s;
-            animation-duration: 12s;
+<!--            -moz-animation-duration: 12s;-->
+<!--            -webkit-animation-duration: 12s;-->
+<!--            -o-animation-duration: 12s;-->
+<!--            animation-duration: 12s;-->
 
-        }
-
-
-        .climacon_componentWrap-sun{
-            -webkit-animation-name: rotate;
-            -moz-animation-name: rotate;
-            -o-animation-name: rotate;
-            animation-name: rotate;
-        }
-
-        .climacon_component-stroke_sunSpoke{
-            -webkit-animation-name: scale;
-            -moz-animation-name: scale;
-            -o-animation-name: scale;
-            animation-name: scale;
-            -webkit-animation-direction: alternate;
-            -moz-animation-direction: alternate;
-            -o-animation-direction: alternate;
-            animation-direction: alternate;
-            -webkit-animation-duration: 3s;
-            -moz-animation-duration: 3s;
-            -o-animation-duration: 3s;
-            animation-duration: 3s;
-        }
-
-        .climacon_component-stroke_sunSpoke:nth-child(even){
-            -webkit-animation-delay: 3s;
-            -moz-animation-delay: 3s;
-            -o-animation-delay: 3s;
-            animation-delay: 3s;
-        }
-
-        @-webkit-keyframes rotate{
-            0%{
-                -webkit-transform: rotate(0);
-            }
-            100%{
-                -webkit-transform: rotate(360deg);
-            }   
-        }
+<!--        }-->
 
 
-        @-moz-keyframes rotate{
-            0%{
-                -moz-transform: rotate(0);
-            }
-            100%{
-                -moz-transform: rotate(360deg);
-            }   
-        }
+<!--        .climacon_componentWrap-sun{-->
+<!--            -webkit-animation-name: rotate;-->
+<!--            -moz-animation-name: rotate;-->
+<!--            -o-animation-name: rotate;-->
+<!--            animation-name: rotate;-->
+<!--        }-->
+
+<!--        .climacon_component-stroke_sunSpoke{-->
+<!--            -webkit-animation-name: scale;-->
+<!--            -moz-animation-name: scale;-->
+<!--            -o-animation-name: scale;-->
+<!--            animation-name: scale;-->
+<!--            -webkit-animation-direction: alternate;-->
+<!--            -moz-animation-direction: alternate;-->
+<!--            -o-animation-direction: alternate;-->
+<!--            animation-direction: alternate;-->
+<!--            -webkit-animation-duration: 3s;-->
+<!--            -moz-animation-duration: 3s;-->
+<!--            -o-animation-duration: 3s;-->
+<!--            animation-duration: 3s;-->
+<!--        }-->
+
+<!--        .climacon_component-stroke_sunSpoke:nth-child(even){-->
+<!--            -webkit-animation-delay: 3s;-->
+<!--            -moz-animation-delay: 3s;-->
+<!--            -o-animation-delay: 3s;-->
+<!--            animation-delay: 3s;-->
+<!--        }-->
+
+<!--        @-webkit-keyframes rotate{-->
+<!--            0%{-->
+<!--                -webkit-transform: rotate(0);-->
+<!--            }-->
+<!--            100%{-->
+<!--                -webkit-transform: rotate(360deg);-->
+<!--            }   -->
+<!--        }-->
 
 
-        @-o-keyframes rotate{
-            0%{
-                -o-transform: rotate(0);
-            }
-            100%{
-                -o-transform: rotate(360deg);
-            }   
-        }
+<!--        @-moz-keyframes rotate{-->
+<!--            0%{-->
+<!--                -moz-transform: rotate(0);-->
+<!--            }-->
+<!--            100%{-->
+<!--                -moz-transform: rotate(360deg);-->
+<!--            }   -->
+<!--        }-->
 
 
-        @keyframes rotate{
-            0%{
-                transform: rotate(0);
-            }
-            100%{
-                transform: rotate(360deg);
-            }   
-        }
+<!--        @-o-keyframes rotate{-->
+<!--            0%{-->
+<!--                -o-transform: rotate(0);-->
+<!--            }-->
+<!--            100%{-->
+<!--                -o-transform: rotate(360deg);-->
+<!--            }   -->
+<!--        }-->
 
-        @-webkit-keyframes scale{
-            0%{
-                -webkit-transform: scale(1,1)
-            }
-            100%{
-                -webkit-transform: scale(.5,.5)
-            }   
-        }
 
-        @-moz-keyframes scale{
-            0%{
-                -moz-transform: scale(1,1)
-            }
-            100%{
-                -moz-transform: scale(.5,.5)
-            }   
-        }
+<!--        @keyframes rotate{-->
+<!--            0%{-->
+<!--                transform: rotate(0);-->
+<!--            }-->
+<!--            100%{-->
+<!--                transform: rotate(360deg);-->
+<!--            }   -->
+<!--        }-->
 
-        @-o-keyframes scale{
-            0%{
-                -o-transform: scale(1,1)
-            }
-            100%{
-                -o-transform: scale(.5,.5)
-            }   
-        }
+<!--        @-webkit-keyframes scale{-->
+<!--            0%{-->
+<!--                -webkit-transform: scale(1,1)-->
+<!--            }-->
+<!--            100%{-->
+<!--                -webkit-transform: scale(.5,.5)-->
+<!--            }   -->
+<!--        }-->
 
-        @keyframes scale{
-            0%{
-                transform: scale(1,1)
-            }
-            100%{
-                transform: scale(.5,.5)
-            }   
-        }
+<!--        @-moz-keyframes scale{-->
+<!--            0%{-->
+<!--                -moz-transform: scale(1,1)-->
+<!--            }-->
+<!--            100%{-->
+<!--                -moz-transform: scale(.5,.5)-->
+<!--            }   -->
+<!--        }-->
 
-    ]]></style>
+<!--        @-o-keyframes scale{-->
+<!--            0%{-->
+<!--                -o-transform: scale(1,1)-->
+<!--            }-->
+<!--            100%{-->
+<!--                -o-transform: scale(.5,.5)-->
+<!--            }   -->
+<!--        }-->
+
+<!--        @keyframes scale{-->
+<!--            0%{-->
+<!--                transform: scale(1,1)-->
+<!--            }-->
+<!--            100%{-->
+<!--                transform: scale(.5,.5)-->
+<!--            }   -->
+<!--        }-->
+
+<!--    ]]></style>-->
     <g class="climacon_iconWrap climacon_iconWrap-sunFill">
         <g class="climacon_componentWrap climacon_componentWrap-sun">
             <g class="climacon_componentWrap climacon_componentWrap-sunSpoke">

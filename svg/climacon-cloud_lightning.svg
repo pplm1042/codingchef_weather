@@ -9,253 +9,253 @@
     viewBox="15 15 70 70"
     enable-background="new 15 15 70 70"
     xml:space="preserve">
-    <style type="text/css"><![CDATA[
+<!--    <style type="text/css"><![CDATA[-->
 
-        svg{
-            shape-rendering: geometricPrecision
-        }
+<!--        svg{-->
+<!--            shape-rendering: geometricPrecision-->
+<!--        }-->
 
-        g, path, circle, rect{
-            -webkit-transform-origin: 50% 50%;
-            -webkit-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: linear;
-            -webkit-animation-duration: 12s;
-            -webkit-animation-direction: normal;
-            -moz-transform-origin: 50% 50%;
-            -moz-animation-iteration-count: infinite;
-            -moz-animation-timing-function: linear;
-            -moz-animation-duration: 12s;
-            -moz-animation-direction: normal;
-            -o-transform-origin: 50% 50%;
-            -o-animation-iteration-count: infinite;
-            -o-animation-timing-function: linear;
-            -o-animation-duration: 12s;
-            -o-animation-direction: normal;
-            transform-origin: 50% 50%;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-            animation-duration: 12s;
-            animation-direction: normal;
-        }
+<!--        g, path, circle, rect{-->
+<!--            -webkit-transform-origin: 50% 50%;-->
+<!--            -webkit-animation-iteration-count: infinite;-->
+<!--            -webkit-animation-timing-function: linear;-->
+<!--            -webkit-animation-duration: 12s;-->
+<!--            -webkit-animation-direction: normal;-->
+<!--            -moz-transform-origin: 50% 50%;-->
+<!--            -moz-animation-iteration-count: infinite;-->
+<!--            -moz-animation-timing-function: linear;-->
+<!--            -moz-animation-duration: 12s;-->
+<!--            -moz-animation-direction: normal;-->
+<!--            -o-transform-origin: 50% 50%;-->
+<!--            -o-animation-iteration-count: infinite;-->
+<!--            -o-animation-timing-function: linear;-->
+<!--            -o-animation-duration: 12s;-->
+<!--            -o-animation-direction: normal;-->
+<!--            transform-origin: 50% 50%;-->
+<!--            animation-iteration-count: infinite;-->
+<!--            animation-timing-function: linear;-->
+<!--            animation-duration: 12s;-->
+<!--            animation-direction: normal;-->
+<!--        }-->
 
-        /* LIGHTNING */
-        .climacon_component-stroke_lightning {
-            fill-opacity: 0;
-            -webkit-animation-name: lightningFlash;
-            -moz-animation-name: lightningFlash;
-            -o-animation-name: lightningFlash;
-            animation-name: lightningFlash;
+<!--        /* LIGHTNING */-->
+<!--        .climacon_component-stroke_lightning {-->
+<!--            fill-opacity: 0;-->
+<!--            -webkit-animation-name: lightningFlash;-->
+<!--            -moz-animation-name: lightningFlash;-->
+<!--            -o-animation-name: lightningFlash;-->
+<!--            animation-name: lightningFlash;-->
 
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-iteration-count: infinite;
-            -o-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+<!--            -webkit-animation-iteration-count: infinite;-->
+<!--            -moz-animation-iteration-count: infinite;-->
+<!--            -o-animation-iteration-count: infinite;-->
+<!--            animation-iteration-count: infinite;-->
 
-            -webkit-animation-direction: normal;
-            -moz-animation-direction: normal;
-            -o-animation-direction: normal;
-            animation-direction: normal;
+<!--            -webkit-animation-direction: normal;-->
+<!--            -moz-animation-direction: normal;-->
+<!--            -o-animation-direction: normal;-->
+<!--            animation-direction: normal;-->
 
-            -webkit-animation-timing-function: ease-out;
-            -moz-animation-timing-function: ease-out;
-            -o-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+<!--            -webkit-animation-timing-function: ease-out;-->
+<!--            -moz-animation-timing-function: ease-out;-->
+<!--            -o-animation-timing-function: ease-out;-->
+<!--            animation-timing-function: ease-out;-->
 
-            -webkit-animation-duration: 12s;
-            -moz-animation-duration: 12s;
-            -o-animation-duration: 12s;
-            animation-duration: 12s;
+<!--            -webkit-animation-duration: 12s;-->
+<!--            -moz-animation-duration: 12s;-->
+<!--            -o-animation-duration: 12s;-->
+<!--            animation-duration: 12s;-->
 
-        }
+<!--        }-->
 
-  @-webkit-keyframes lightningFlash {
-    0% {
-      fill-opacity: 0;
-      stroke-opacity: 0;
-    }
+<!--  @-webkit-keyframes lightningFlash {-->
+<!--    0% {-->
+<!--      fill-opacity: 0;-->
+<!--      stroke-opacity: 0;-->
+<!--    }-->
 
-    1% {
-      fill-opacity: 1;
-      stroke-opacity: 1;
-    }
+<!--    1% {-->
+<!--      fill-opacity: 1;-->
+<!--      stroke-opacity: 1;-->
+<!--    }-->
 
-    7% {
-      fill-opacity: 0;
-      stroke-opacity: 0;
-    }
+<!--    7% {-->
+<!--      fill-opacity: 0;-->
+<!--      stroke-opacity: 0;-->
+<!--    }-->
 
-    50% {
-      fill-opacity: 0;
-      stroke-opacity: 0;
-    }
+<!--    50% {-->
+<!--      fill-opacity: 0;-->
+<!--      stroke-opacity: 0;-->
+<!--    }-->
 
-    51% {
-      fill-opacity: 1;
-      stroke-opacity: 1;
-    }
+<!--    51% {-->
+<!--      fill-opacity: 1;-->
+<!--      stroke-opacity: 1;-->
+<!--    }-->
 
-    53% {
-      fill-opacity: 0;
-      stroke-opacity: 0;
-    }
+<!--    53% {-->
+<!--      fill-opacity: 0;-->
+<!--      stroke-opacity: 0;-->
+<!--    }-->
 
-    54% {
-      fill-opacity: 1;
-      stroke-opacity: 1;
-    }
+<!--    54% {-->
+<!--      fill-opacity: 1;-->
+<!--      stroke-opacity: 1;-->
+<!--    }-->
 
-    60% {
-      fill-opacity: 0;
-      stroke-opacity: 0;
-    }
+<!--    60% {-->
+<!--      fill-opacity: 0;-->
+<!--      stroke-opacity: 0;-->
+<!--    }-->
 
-    100% {
-      fill-opacity: 0;
-      stroke-opacity: 0;
-    }
-}
+<!--    100% {-->
+<!--      fill-opacity: 0;-->
+<!--      stroke-opacity: 0;-->
+<!--    }-->
+<!--}-->
 
-@-moz-keyframes lightningFlash {
-  0% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--@-moz-keyframes lightningFlash {-->
+<!--  0% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  1% {
-    fill-opacity: 1;
-    stroke-opacity: 1;
-  }
+<!--  1% {-->
+<!--    fill-opacity: 1;-->
+<!--    stroke-opacity: 1;-->
+<!--  }-->
 
-  7% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  7% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  50% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  50% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  51% {
-    fill-opacity: 1;
-    stroke-opacity: 1;
-  }
+<!--  51% {-->
+<!--    fill-opacity: 1;-->
+<!--    stroke-opacity: 1;-->
+<!--  }-->
 
-  53% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  53% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  54% {
-    fill-opacity: 1;
-    stroke-opacity: 1;
-  }
+<!--  54% {-->
+<!--    fill-opacity: 1;-->
+<!--    stroke-opacity: 1;-->
+<!--  }-->
 
-  60% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  60% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  100% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
-}
+<!--  100% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
+<!--}-->
 
-@-o-keyframes lightningFlash {
-  0% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--@-o-keyframes lightningFlash {-->
+<!--  0% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  1% {
-    fill-opacity: 1;
-    stroke-opacity: 1;
-  }
+<!--  1% {-->
+<!--    fill-opacity: 1;-->
+<!--    stroke-opacity: 1;-->
+<!--  }-->
 
-  7% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  7% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  50% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  50% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  51% {
-    fill-opacity: 1;
-    stroke-opacity: 1;
-  }
+<!--  51% {-->
+<!--    fill-opacity: 1;-->
+<!--    stroke-opacity: 1;-->
+<!--  }-->
 
-  53% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  53% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  54% {
-    fill-opacity: 1;
-    stroke-opacity: 1;
-  }
+<!--  54% {-->
+<!--    fill-opacity: 1;-->
+<!--    stroke-opacity: 1;-->
+<!--  }-->
 
-  60% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  60% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  100% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
-}
+<!--  100% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
+<!--}-->
 
-@keyframes lightningFlash {
-  0% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--@keyframes lightningFlash {-->
+<!--  0% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  1% {
-    fill-opacity: 1;
-    stroke-opacity: 1;
-  }
+<!--  1% {-->
+<!--    fill-opacity: 1;-->
+<!--    stroke-opacity: 1;-->
+<!--  }-->
 
-  7% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  7% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  50% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  50% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  51% {
-    fill-opacity: 1;
-    stroke-opacity: 1;
-  }
+<!--  51% {-->
+<!--    fill-opacity: 1;-->
+<!--    stroke-opacity: 1;-->
+<!--  }-->
 
-  53% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  53% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  54% {
-    fill-opacity: 1;
-    stroke-opacity: 1;
-  }
+<!--  54% {-->
+<!--    fill-opacity: 1;-->
+<!--    stroke-opacity: 1;-->
+<!--  }-->
 
-  60% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
+<!--  60% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
 
-  100% {
-    fill-opacity: 0;
-    stroke-opacity: 0;
-  }
-}
-    ]]></style>
+<!--  100% {-->
+<!--    fill-opacity: 0;-->
+<!--    stroke-opacity: 0;-->
+<!--  }-->
+<!--}-->
+<!--    ]]></style>-->
   
     <g class="climacon_iconWrap climacon_iconWrap-cloudLightning">
         <g class="climacon_wrapperComponent climacon_wrapperComponent-lightning">

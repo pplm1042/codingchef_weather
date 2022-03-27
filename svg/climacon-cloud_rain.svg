@@ -9,242 +9,242 @@
     viewBox="15 15 70 70"
     enable-background="new 15 15 70 70"
     xml:space="preserve">
-    <style type="text/css"><![CDATA[
-        svg{
-            shape-rendering: geometricPrecision
-        }
+<!--    <style type="text/css"><![CDATA[-->
+<!--        svg{-->
+<!--            shape-rendering: geometricPrecision-->
+<!--        }-->
 
-        g, path, circle, rect{
-            
-            -webkit-transform-origin: 50% 50%;
-            -moz-transform-origin: 50% 50%;
-            -o-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+<!--        g, path, circle, rect{-->
+<!--            -->
+<!--            -webkit-transform-origin: 50% 50%;-->
+<!--            -moz-transform-origin: 50% 50%;-->
+<!--            -o-transform-origin: 50% 50%;-->
+<!--            transform-origin: 50% 50%;-->
 
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-iteration-count: infinite;
-            -o-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+<!--            -webkit-animation-iteration-count: infinite;-->
+<!--            -moz-animation-iteration-count: infinite;-->
+<!--            -o-animation-iteration-count: infinite;-->
+<!--            animation-iteration-count: infinite;-->
 
-            -moz-animation-timing-function: linear;
-            -webkit-animation-timing-function: linear;
-            -o-animation-timing-function: linear;
-            animation-timing-function: linear;
+<!--            -moz-animation-timing-function: linear;-->
+<!--            -webkit-animation-timing-function: linear;-->
+<!--            -o-animation-timing-function: linear;-->
+<!--            animation-timing-function: linear;-->
 
-            -webkit-animation-duration: 12s;
-            -moz-animation-duration: 12s;
-            -o-animation-duration: 12s;
-            animation-duration: 12s;
+<!--            -webkit-animation-duration: 12s;-->
+<!--            -moz-animation-duration: 12s;-->
+<!--            -o-animation-duration: 12s;-->
+<!--            animation-duration: 12s;-->
 
-            -webkit-animation-direction: normal;
-            -moz-animation-direction: normal;
-            -o-animation-direction: normal;
-            animation-direction: normal;
+<!--            -webkit-animation-direction: normal;-->
+<!--            -moz-animation-direction: normal;-->
+<!--            -o-animation-direction: normal;-->
+<!--            animation-direction: normal;-->
 
-        }
+<!--        }-->
 
-        /* RAIN */
-        .climacon_component-stroke_rain {
-          fill-opacity: 0;
-          -webkit-animation-name: rainFall, fillOpacity2;
-          -webkit-animation-timing-function: ease-in;
-          -webkit-animation-duration: 2s;
+<!--        /* RAIN */-->
+<!--        .climacon_component-stroke_rain {-->
+<!--          fill-opacity: 0;-->
+<!--          -webkit-animation-name: rainFall, fillOpacity2;-->
+<!--          -webkit-animation-timing-function: ease-in;-->
+<!--          -webkit-animation-duration: 2s;-->
 
-          -moz-animation-name: rainFall, fillOpacity2;
-          -moz-animation-timing-function: ease-in;
-          -moz-animation-duration: 2s;
+<!--          -moz-animation-name: rainFall, fillOpacity2;-->
+<!--          -moz-animation-timing-function: ease-in;-->
+<!--          -moz-animation-duration: 2s;-->
 
-          -o-animation-name: rainFall, fillOpacity2;
-          -o-animation-timing-function: ease-in;
-          -o-animation-duration: 2s;
+<!--          -o-animation-name: rainFall, fillOpacity2;-->
+<!--          -o-animation-timing-function: ease-in;-->
+<!--          -o-animation-duration: 2s;-->
 
-          animation-name: rainFall, fillOpacity2;
-          animation-timing-function: ease-in;
-          animation-duration: 2s;
-        }
+<!--          animation-name: rainFall, fillOpacity2;-->
+<!--          animation-timing-function: ease-in;-->
+<!--          animation-duration: 2s;-->
+<!--        }-->
 
-        .climacon_component-stroke_rain:nth-child(n+4) {
-          -webkit-animation-delay: 1s;
-          -moz-animation-delay: 1s;
-          -o-animation-delay: 1s;
-          animation-delay: 1s;
-        
-        }
+<!--        .climacon_component-stroke_rain:nth-child(n+4) {-->
+<!--          -webkit-animation-delay: 1s;-->
+<!--          -moz-animation-delay: 1s;-->
+<!--          -o-animation-delay: 1s;-->
+<!--          animation-delay: 1s;-->
+<!--        -->
+<!--        }-->
 
-        .climacon_component-stroke_rain_alt:nth-child(2) {
-          -webkit-animation-delay: 1s;
-          -moz-animation-delay: 1s;
-          -o-animation-delay: 1s;
-          animation-delay: 1s;
+<!--        .climacon_component-stroke_rain_alt:nth-child(2) {-->
+<!--          -webkit-animation-delay: 1s;-->
+<!--          -moz-animation-delay: 1s;-->
+<!--          -o-animation-delay: 1s;-->
+<!--          animation-delay: 1s;-->
 
-        }
+<!--        }-->
 
-        @-webkit-keyframes rainFall {
-          0% {
-            -webkit-transform: translateY(0);
-          }
+<!--        @-webkit-keyframes rainFall {-->
+<!--          0% {-->
+<!--            -webkit-transform: translateY(0);-->
+<!--          }-->
 
-          100% {
-            -webkit-transform: translateY(14px);
-          }
-        }
+<!--          100% {-->
+<!--            -webkit-transform: translateY(14px);-->
+<!--          }-->
+<!--        }-->
 
-        @-moz-keyframes rainFall {
-          0% {
-            -moz-transform: translateY(0);
-          }
+<!--        @-moz-keyframes rainFall {-->
+<!--          0% {-->
+<!--            -moz-transform: translateY(0);-->
+<!--          }-->
 
-          100% {
-            -moz-transform: translateY(14px);
-          }
-        }
+<!--          100% {-->
+<!--            -moz-transform: translateY(14px);-->
+<!--          }-->
+<!--        }-->
 
-        @-o-keyframes rainFall {
-          0% {
-            -o-transform: translateY(0);
-          }
+<!--        @-o-keyframes rainFall {-->
+<!--          0% {-->
+<!--            -o-transform: translateY(0);-->
+<!--          }-->
 
-          100% {
-            -o-transform: translateY(14px);
-          }
-        }
+<!--          100% {-->
+<!--            -o-transform: translateY(14px);-->
+<!--          }-->
+<!--        }-->
 
-        @keyframes rainFall {
-          0% {
-            transform: translateY(0);
-          }
+<!--        @keyframes rainFall {-->
+<!--          0% {-->
+<!--            transform: translateY(0);-->
+<!--          }-->
 
-          100% {
-            transform: translateY(14px);
-          }
-        }
+<!--          100% {-->
+<!--            transform: translateY(14px);-->
+<!--          }-->
+<!--        }-->
 
 
-        @-webkit-keyframes rainFall2 {
-          0% {
-            -webkit-transform: translateY(0);
-          }
+<!--        @-webkit-keyframes rainFall2 {-->
+<!--          0% {-->
+<!--            -webkit-transform: translateY(0);-->
+<!--          }-->
 
-          50% {
-            -webkit-transform: translateY(14px);
-          }
+<!--          50% {-->
+<!--            -webkit-transform: translateY(14px);-->
+<!--          }-->
 
-          100% {
-            -webkit-transform: translateX(14px) translateY(14px);
-          }
-        }
+<!--          100% {-->
+<!--            -webkit-transform: translateX(14px) translateY(14px);-->
+<!--          }-->
+<!--        }-->
 
-        @-moz-keyframes rainFall2 {
-          0% {
-            -moz-transform: translateY(0);
-          }
+<!--        @-moz-keyframes rainFall2 {-->
+<!--          0% {-->
+<!--            -moz-transform: translateY(0);-->
+<!--          }-->
 
-          50% {
-            -moz-transform: translateY(14px);
-          }
+<!--          50% {-->
+<!--            -moz-transform: translateY(14px);-->
+<!--          }-->
 
-          100% {
-            -moz-transform: translateX(14px) translateY(14px);
-          }
-        }
+<!--          100% {-->
+<!--            -moz-transform: translateX(14px) translateY(14px);-->
+<!--          }-->
+<!--        }-->
 
-        @-o-keyframes rainFall2 {
-          0% {
-            -o-transform: translateY(0);
-          }
+<!--        @-o-keyframes rainFall2 {-->
+<!--          0% {-->
+<!--            -o-transform: translateY(0);-->
+<!--          }-->
 
-          50% {
-            -o-transform: translateY(14px);
-          }
+<!--          50% {-->
+<!--            -o-transform: translateY(14px);-->
+<!--          }-->
 
-          100% {
-            -o-transform: translateX(14px) translateY(14px);
-          }
-        }
+<!--          100% {-->
+<!--            -o-transform: translateX(14px) translateY(14px);-->
+<!--          }-->
+<!--        }-->
 
-        @keyframes rainFall2 {
-          0% {
-            transform: translateY(0);
-          }
+<!--        @keyframes rainFall2 {-->
+<!--          0% {-->
+<!--            transform: translateY(0);-->
+<!--          }-->
 
-          50% {
-            transform: translateY(14px);
-          }
+<!--          50% {-->
+<!--            transform: translateY(14px);-->
+<!--          }-->
 
-          100% {
-            transform: translateX(14px) translateY(14px);
-          }
-        }
+<!--          100% {-->
+<!--            transform: translateX(14px) translateY(14px);-->
+<!--          }-->
+<!--        }-->
 
-        @-webkit-keyframes fillOpacity2 {
-          0% {
-            fill-opacity: 0;
-            stroke-opacity: 0;
-          }
+<!--        @-webkit-keyframes fillOpacity2 {-->
+<!--          0% {-->
+<!--            fill-opacity: 0;-->
+<!--            stroke-opacity: 0;-->
+<!--          }-->
 
-          50% {
-            fill-opacity: 1;
-            stroke-opacity: 1;
-          }
+<!--          50% {-->
+<!--            fill-opacity: 1;-->
+<!--            stroke-opacity: 1;-->
+<!--          }-->
 
-          100% {
-            fill-opacity: 0;
-            stroke-opacity: 0;
-          }
-        }
+<!--          100% {-->
+<!--            fill-opacity: 0;-->
+<!--            stroke-opacity: 0;-->
+<!--          }-->
+<!--        }-->
 
-        @-moz-keyframes fillOpacity2 {
-          0% {
-            fill-opacity: 0;
-            stroke-opacity: 0;
-          }
+<!--        @-moz-keyframes fillOpacity2 {-->
+<!--          0% {-->
+<!--            fill-opacity: 0;-->
+<!--            stroke-opacity: 0;-->
+<!--          }-->
 
-          50% {
-            fill-opacity: 1;
-            stroke-opacity: 1;
-          }
+<!--          50% {-->
+<!--            fill-opacity: 1;-->
+<!--            stroke-opacity: 1;-->
+<!--          }-->
 
-          100% {
-            fill-opacity: 0;
-            stroke-opacity: 0;
-          }
-        }
+<!--          100% {-->
+<!--            fill-opacity: 0;-->
+<!--            stroke-opacity: 0;-->
+<!--          }-->
+<!--        }-->
 
-        @keyframes fillOpacity2 {
-          0% {
-            fill-opacity: 0;
-            stroke-opacity: 0;
-          }
+<!--        @keyframes fillOpacity2 {-->
+<!--          0% {-->
+<!--            fill-opacity: 0;-->
+<!--            stroke-opacity: 0;-->
+<!--          }-->
 
-          50% {
-            fill-opacity: 1;
-            stroke-opacity: 1;
-          }
+<!--          50% {-->
+<!--            fill-opacity: 1;-->
+<!--            stroke-opacity: 1;-->
+<!--          }-->
 
-          100% {
-            fill-opacity: 0;
-            stroke-opacity: 0;
-          }
-        }
+<!--          100% {-->
+<!--            fill-opacity: 0;-->
+<!--            stroke-opacity: 0;-->
+<!--          }-->
+<!--        }-->
 
-        @keyframes fillOpacity2 {
-          0% {
-            fill-opacity: 0;
-            stroke-opacity: 0;
-          }
+<!--        @keyframes fillOpacity2 {-->
+<!--          0% {-->
+<!--            fill-opacity: 0;-->
+<!--            stroke-opacity: 0;-->
+<!--          }-->
 
-          50% {
-            fill-opacity: 1;
-            stroke-opacity: 1;
-          }
+<!--          50% {-->
+<!--            fill-opacity: 1;-->
+<!--            stroke-opacity: 1;-->
+<!--          }-->
 
-          100% {
-            fill-opacity: 0;
-            stroke-opacity: 0;
-          }
-        }
+<!--          100% {-->
+<!--            fill-opacity: 0;-->
+<!--            stroke-opacity: 0;-->
+<!--          }-->
+<!--        }-->
 
-    ]]></style>
+<!--    ]]></style>-->
     <clipPath id="cloudFillClip">
         <path d="M15,15v70h70V15H15z M59.943,61.639c-3.02,0-12.381,0-15.999,0c-6.626,0-11.998-5.371-11.998-11.998c0-6.627,5.372-11.999,11.998-11.999c5.691,0,10.434,3.974,11.665,9.29c1.252-0.81,2.733-1.291,4.334-1.291c4.418,0,8,3.582,8,8C67.943,58.057,64.361,61.639,59.943,61.639z"/>
     </clipPath>
