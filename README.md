@@ -5,9 +5,9 @@
 * flutter spinkit 플러그인을 통한 구현
 
 
-    Scaffold(
-          backgroundColor: Colors.amber,
-          body: Center(child: SpinKitDoubleBounce(color: Colors.white, size: 80)),
-        );
+        Scaffold(
+              backgroundColor: Colors.amber,
+              body: Center(child: SpinKitDoubleBounce(color: Colors.white, size: 80)),
+            );
         
  
