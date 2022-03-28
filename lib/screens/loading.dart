@@ -12,8 +12,8 @@ class Loading extends StatefulWidget {
 }
 
 class _LoadingState extends State<Loading> {
-  double latitude3;
-  double longitude3;
+  double? latitude3;
+  double? longitude3;
 
   @override
   void initState() {
@@ -26,7 +26,7 @@ class _LoadingState extends State<Loading> {
     MyLocation myLocation = MyLocation();
     await myLocation.getMyCurrentLocation();
     latitude3 = myLocation.latitude2;
-    longitude3 = myLocation.longitude2;
+    longitude3 = myLocation.longitude2!;
     print(latitude3);
     print(longitude3);
     print(apikey);

@@ -17,14 +17,14 @@ class WeatherScreen extends StatefulWidget {
 
 class _WeatherScreenState extends State<WeatherScreen> {
   Model model = Model();
-  String cityName;
-  int temp;
-  Widget icon;
-  String des;
-  Widget airIcon;
-  Widget airState;
-  double dust1;
-  double dust2;
+  String? cityName;
+  int? temp;
+  late Widget icon;
+  late String des;
+  late Widget airIcon;
+  late Widget airState;
+  late double dust1;
+  double? dust2;
   var date = DateTime.now();
 
   @override
