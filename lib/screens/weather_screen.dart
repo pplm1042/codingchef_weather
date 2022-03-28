@@ -44,9 +44,9 @@ class _WeatherScreenState extends State<WeatherScreen> {
     des = weatherData['weather'][0]['description'];
     temp = temp2.toInt();
     cityName = weatherData['name'];
-    icon = model.getWeatherIcon(condition);
-    airIcon = model.getAirIcon(index);
-    airState = model.getAirCondition(index);
+    icon = model.getWeatherIcon(condition)!;
+    airIcon = model.getAirIcon(index)!;
+    airState = model.getAirCondition(index)!;
 
     // double temp2 = weatherData['main']['temp'];
     // temp = temp2.round();
